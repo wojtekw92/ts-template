@@ -9,7 +9,7 @@
     "start": "npm run serve",
     "serve": "node dist/server.js",
     "watch-node": "nodemon dist/server.js",
-    "watch-ts": "tsc -w"    
+    "watch-ts": "tsc -w"
   },
   "author": "",
   "license": "ISC",
@@ -17,5 +17,8 @@
     "nodemon": "^1.19.4",
     "tslint": "^6.0.0-beta0",
     "typescript": "^3.6.4"
+  },
+  "dependencies": {
+    "@types/node": "^12.12.5"
   }
 }
